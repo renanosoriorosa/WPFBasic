@@ -27,7 +27,7 @@ namespace wpfbasic
 
         private void ApplyButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show($"A descricao é : { this.DescriptionText.Text }");
+            MessageBox.Show($"A descricao é: { this.DescriptionText.Text }");
         }
 
         private void ResetButton_Click(object sender, RoutedEventArgs e)
